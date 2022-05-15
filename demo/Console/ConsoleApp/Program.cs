@@ -11,10 +11,7 @@ using Patronum.Authricator.Authorization;
 var services = new ServiceCollection();
 services.AddLogging(builder => builder.AddConsole().SetMinimumLevel(LogLevel.Trace));
 
-
 services.InitializeAuthricator(x => x.AddStaticConfigurationProvider());
-
-services.BuildServiceProvider().GetRequiredService<AuthorizationHandler>().Demo();
 
 Console.WriteLine("Hello, World!");
 
