@@ -34,4 +34,4 @@ For Example : Permission to business-critical data, may sometime require Complex
 
 ## License
 
-This project is licensed under the  [*GNU General Public License v3.0 license*](https://github.com/pcys-in/Authricator/blob/main/LICENSE)
+This project is licensed under the  [*GNU General Public License v3.0 license*](https://github.com/pcys-in/Authricator/blob/main/LICENSE) and maintained by Patronum Cyber Solutions.
