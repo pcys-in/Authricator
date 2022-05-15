@@ -1,3 +1,4 @@
+
 # Authricator
 **Authricator** is *simple, powerful and highly configurable* **Authentication and Authorization Framework** for dotnet core which uses *JWT* and supports for enforcing authorization like *UBAC, RBAC and ABAC Access Controls*.
 
@@ -31,6 +32,23 @@ Using a *[JavaScript Engine](https://github.com/sebastienros/jint)*, has end-les
 There are many times where the Access-Control policy is so complex, that the result can only be achieved using an ABAC. It is user-intuitive, easy to configure, and anyone with authority can modify it without the need to change the code-base.
 
 For Example : Permission to business-critical data, may sometime require Complex Access-Control Policy which *cannot* be managed with a *UBAC, RBAC models*. ABAC allows dynamic attributes like Department, Groups, Position, IP, Location, Date/Time, Status, etc. and any other attributes associated with a subject to affect the result of an authorization request.  
+
+
+## Work Progress
+
+ - [ ] Authentication
+	 - [ ] Core
+ - [ ] Authorization
+	 - [x] Core
+	 - [ ] ConfigurationProviders
+		 - [x] Core
+		 - [ ] File Based
+		 - [ ] DB Based
+ - [ ] Demos
+	 - [ ] ConsoleApp
+	 - [ ] WebApplication
+ - [ ] Tests
+ 
 
 ## License
 
