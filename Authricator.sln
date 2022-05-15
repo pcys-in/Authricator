@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{85E01245-44E6-4205-B1DA-3C4DB7E6F570}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patronum.Authricator", "src\Authricator\Patronum.Authricator.csproj", "{748F32B6-0EA1-4F56-A4B3-74A7030ABDC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConfigurationProviders", "ConfigurationProviders", "{14773ED6-4E61-44A5-AB5B-4FF7BFAA638A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{5DBDD830-EBE5-4A07-AD6B-254AF603E50E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "demo\Console\ConsoleApp\ConsoleApp.csproj", "{FA3C2985-355A-416C-8B26-2F9A277E75E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoConfigurationProviders", "demo\ConfigurationProviders\DemoConfigurationProviders\DemoConfigurationProviders.csproj", "{57CA254D-C4C0-44B4-92D3-13E4919CC9F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patronum.Authricator.ConfigurationProviders.File", "src\ConfigurationProviders\Patronum.Authricator.ConfigurationProviders.File\Patronum.Authricator.ConfigurationProviders.File.csproj", "{2CCCC823-4AAB-4ED3-9A5B-161610455FD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{748F32B6-0EA1-4F56-A4B3-74A7030ABDC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{748F32B6-0EA1-4F56-A4B3-74A7030ABDC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{748F32B6-0EA1-4F56-A4B3-74A7030ABDC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{748F32B6-0EA1-4F56-A4B3-74A7030ABDC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA3C2985-355A-416C-8B26-2F9A277E75E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA3C2985-355A-416C-8B26-2F9A277E75E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA3C2985-355A-416C-8B26-2F9A277E75E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA3C2985-355A-416C-8B26-2F9A277E75E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57CA254D-C4C0-44B4-92D3-13E4919CC9F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57CA254D-C4C0-44B4-92D3-13E4919CC9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CA254D-C4C0-44B4-92D3-13E4919CC9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57CA254D-C4C0-44B4-92D3-13E4919CC9F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CCCC823-4AAB-4ED3-9A5B-161610455FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CCCC823-4AAB-4ED3-9A5B-161610455FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CCCC823-4AAB-4ED3-9A5B-161610455FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CCCC823-4AAB-4ED3-9A5B-161610455FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{748F32B6-0EA1-4F56-A4B3-74A7030ABDC5} = {85E01245-44E6-4205-B1DA-3C4DB7E6F570}
+		{14773ED6-4E61-44A5-AB5B-4FF7BFAA638A} = {85E01245-44E6-4205-B1DA-3C4DB7E6F570}
+		{FA3C2985-355A-416C-8B26-2F9A277E75E5} = {5DBDD830-EBE5-4A07-AD6B-254AF603E50E}
+		{57CA254D-C4C0-44B4-92D3-13E4919CC9F9} = {5DBDD830-EBE5-4A07-AD6B-254AF603E50E}
+		{2CCCC823-4AAB-4ED3-9A5B-161610455FD8} = {14773ED6-4E61-44A5-AB5B-4FF7BFAA638A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BA9C430-07A6-4C4A-BCC2-0919DD95B5F1}
+	EndGlobalSection
+EndGlobal
